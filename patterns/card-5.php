@@ -11,10 +11,10 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"30px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-<div class="wp-block-group alignfull"><!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"800"},"layout":{"selfStretch":"fit","flexSize":null},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default","fontSize":"xx-large","fontFamily":"material-symbols-outlined"} -->
-<h4 class="wp-block-heading has-default-color has-text-color has-link-color has-material-symbols-outlined-font-family has-xx-large-font-size" style="font-style:normal;font-weight:800"><?php esc_html_e( 'social_leaderboard', 'patterns-automotive' ); ?></h4>
-<!-- /wp:heading -->
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<div class="wp-block-group alignfull"><!-- wp:image {"width":"80px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|default"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-12.png" style="width:80px"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-large"} -->

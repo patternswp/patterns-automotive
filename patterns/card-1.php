@@ -11,6 +11,6 @@
  */
 
 ?>
-<!-- wp:image {"id":418,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-10.png" alt="" class="wp-image-418"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-10.png"/></figure>
 <!-- /wp:image -->

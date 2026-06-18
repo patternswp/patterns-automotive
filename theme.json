@@ -3,6 +3,7 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"settings": {
 		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
 		"color": {
 			"custom": true,
 			"palette": [
@@ -54,91 +55,111 @@
 					"name": "Accent",
 					"slug": "accent"
 				}
+			],
+			"duotone": [
+				{
+					"colors": ["#212529", "#212529"],
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"colors": ["#fff", "#fff"],
+					"slug": "default",
+					"name": "Default"
+				},
+				{
+					"colors": ["#be2026", "#be2026"],
+					"slug": "primary",
+					"name": "Primary"
+				},
+				{
+					"colors": ["#01060F", "#01060F"],
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+				{
+					"colors": ["#666666", "#666666"],
+					"slug": "tertiary",
+					"name": "Tertiary"
+				},
+				{
+					"colors": ["#EFF4FA", "#EFF4FA"],
+					"slug": "quaternary",
+					"name": "Quaternary"
+				},
+				{
+					"colors": ["#08161B", "#08161B"],
+					"slug": "quinary",
+					"name": "Quinary"
+				},
+				{
+					"colors": ["#FFD300", "#FFD300"],
+					"slug": "accent",
+					"name": "Accent"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "secondary-to-primary-1",
+					"name": "Secondary To Primary 1",
+					"gradient": "linear-gradient(175deg, rgba(8,23,28,0.85) 39%, rgba(191,33,38,0.88) 78%)"
+				}
 			]
 		},
 		"layout": {
 			"contentSize": "850px",
 			"wideSize": "1320px"
 		},
+		"spacing": {
+			"defaultSpacingSizes": false,
+			"spacingSizes": [
+				{
+					"name": "Tiny",
+					"size": "10px",
+					"slug": "10"
+				},
+				{
+					"name": "X-Small",
+					"size": "20px",
+					"slug": "20"
+				},
+				{
+					"name": "Small",
+					"size": "clamp(15px, 5vw, 30px);",
+					"slug": "30"
+				},
+				{
+					"name": "Medium",
+					"size": "clamp(40px, 5vw, 40px);",
+					"slug": "40"
+				},
+				{
+					"name": "Regular",
+					"size": "clamp(25px, 5vw, 50px);",
+					"slug": "50"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(30px, 7vw, 60px);",
+					"slug": "60"
+				},
+				{
+					"name": "X-Large",
+					"size": "clamp(35px, 7vw, 70px);",
+					"slug": "70"
+				},
+				{
+					"name": "XX-Large",
+					"size": "clamp(40px, 10vw, 80px);",
+					"slug": "80"
+				}
+			],
+			"units": ["%", "px", "em", "rem", "vh", "vw"]
+		},
 		"typography": {
 			"defaultFontSizes": false,
-			"fluid": true,
+			"fluid": false,
 			"fontFamilies": [
-				{
-					"fontFamily": "Material Symbols Outlined",
-					"slug": "material-symbols-outlined",
-					"fontFace": [
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_100.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_200.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_400.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_500.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_600.ttf"
-							]
-						},
-						{
-							"fontFamily": "Material Symbols Outlined",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/material-symbols-outlined_normal_700.ttf"
-							]
-						}
-					]
-				},
-				{
-					"fontFamily": "Material Icons",
-					"slug": "material-icons",
-					"fontFace": [
-						{
-							"fontFamily": "Material Icons",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": ["file:./assets/fonts/material-icons_normal_400.ttf"]
-						}
-					]
-				},
-
 				{
 					"fontFamily": "Russo One",
 					"slug": "heading",
@@ -147,7 +168,7 @@
 							"fontFamily": "Russo One",
 							"fontStyle": "normal",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/russo-one_normal_400.ttf"]
+							"src": ["file:./assets/fonts/russo-one/RussoOne-Regular.woff2"]
 						}
 					]
 				},
@@ -158,13 +179,89 @@
 						{
 							"fontFamily": "Roboto",
 							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": ["file:./assets/fonts/roboto/roboto-thin.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": ["file:./assets/fonts/roboto/roboto-thinitalic.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": ["file:./assets/fonts/roboto/roboto-light.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": ["file:./assets/fonts/roboto/roboto-lightitalic.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/roboto_normal_400.ttf"]
+							"src": ["file:./assets/fonts/roboto/roboto-regular.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": ["file:./assets/fonts/roboto/roboto-italic.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": ["file:./assets/fonts/roboto/roboto-medium.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": ["file:./assets/fonts/roboto/roboto-mediumitalic.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": ["file:./assets/fonts/roboto/roboto-bold.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": ["file:./assets/fonts/roboto/roboto-bolditalic.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": ["file:./assets/fonts/roboto/roboto-black.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": ["file:./assets/fonts/roboto/roboto-blackitalic.woff2"]
 						}
 					]
 				}
 			],
 			"fontSizes": [
+				{
+					"_comment": "The default WordPress CSS variable slug is 'small' and it is generated as '--wp--preset--font-size--x-small' ",
+					"fluid": {
+						"max": "0.875rem",
+						"min": "0.875rem"
+					},
+					"size": "0.875rem",
+					"slug": "x-small",
+					"name": "Extra Small"
+				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'small' and it is generated as '--wp--preset--font-size--small' ",
 					"fluid": {
@@ -172,7 +269,8 @@
 						"min": "0.875rem"
 					},
 					"size": "1rem",
-					"slug": "small"
+					"slug": "small",
+					"name": "Small"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'medium' and it is generated as '--wp--preset--font-size--medium' ",
@@ -181,7 +279,8 @@
 						"min": "1rem"
 					},
 					"size": "1.125rem",
-					"slug": "medium"
+					"slug": "medium",
+					"name": "Medium"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'large' and it is generated as '--wp--preset--font-size--large' ",
@@ -190,7 +289,8 @@
 						"min": "1.75rem"
 					},
 					"size": "1.75rem",
-					"slug": "large"
+					"slug": "large",
+					"name": "Large"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'x-large' and it is generated as '--wp--preset--font-size--x-large' ",
@@ -199,7 +299,8 @@
 						"min": "2rem"
 					},
 					"size": "2.25rem",
-					"slug": "x-large"
+					"slug": "x-large",
+					"name": "Extra Large"
 				},
 				{
 					"_comment": "There isn't a default CSS variable slug in WordPress for 'xx-large,' but it gets generated as '--wp--preset--font-size--xx-large.' ' ",
@@ -208,7 +309,8 @@
 						"min": "2.75rem"
 					},
 					"size": "2.75rem",
-					"slug": "xx-large"
+					"slug": "xx-large",
+					"name": "Extra Extra Large"
 				}
 			]
 		},
@@ -228,9 +330,15 @@
 		"color": {
 			"text": "var:preset|color|base"
 		},
+		"spacing": {
+			"padding": {
+				"left": "var(--wp--preset--spacing--30)",
+				"right": "var(--wp--preset--spacing--30)"
+			}
+		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|base",
-			"fontSize": "15px",
+			"fontSize": "var:preset|font-size|small",
 			"lineHeight": "1.4"
 		},
 
@@ -256,14 +364,14 @@
 					"padding": {
 						"_comment": "Sets the default padding value of the <button> element",
 						"bottom": "15px",
-						"left": "30px",
-						"right": "30px",
+						"left": "var:preset|spacing|30",
+						"right": "var:preset|spacing|30",
 						"top": "15px"
 					}
 				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|base",
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"fontWeight": "500",
 					"lineHeight": "1.6"
 				}
@@ -353,7 +461,7 @@
 			"core/navigation": {
 				"_comment": "generate custom css for navigation active state",
 				"spacing": {
-					"blockGap": "40px"
+					"blockGap": "var:preset|spacing|40"
 				},
 				"typography": {
 					"fontSize": "0.8rem",
@@ -381,7 +489,7 @@
 						}
 					}
 				},
-				"css": "& .current-menu-item{ color:var(--wp--preset--color--primary);} & .wp-block-navigation__submenu-container .wp-block-pages-list__item__link{ padding:10px;}"
+				"css": "& .current-menu-item{ color:var(--wp--preset--color--primary);} & .wp-block-navigation__submenu-container .wp-block-pages-list__item__link{ padding:var(--wp--preset--spacing--10);}"
 			},
 
 			"core/navigation-link": {
@@ -396,7 +504,7 @@
 				}
 			},
 			"core/navigation-submenu": {
-				"css": "& ul li a{padding:10px;}"
+				"css": "& ul li a{padding:var(--wp--preset--spacing--10);}"
 			},
 			"core/button": {
 				"variations": {
@@ -412,8 +520,8 @@
 						"spacing": {
 							"padding": {
 								"bottom": "15px",
-								"left": "30px",
-								"right": "30px",
+								"left": "var:preset|spacing|30",
+								"right": "var:preset|spacing|30",
 								"top": "15px"
 							}
 						}
@@ -455,7 +563,7 @@
 			},
 			"core/code": {
 				"typography": {
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"lineHeight": "1.3"
 				}
 			},
@@ -532,7 +640,7 @@
 						},
 						":hover": {
 							"color": {
-								"text": "var:preset|color|quaternary"
+								"text": "var:preset|color|tertiary"
 							}
 						}
 					}
@@ -543,7 +651,7 @@
 					"text": "var:preset|color|tertiary"
 				},
 				"typography": {
-					"fontSize": "14px"
+					"fontSize": "var:preset|font-size|x-small"
 				},
 				"elements": {
 					"link": {
@@ -552,7 +660,7 @@
 						},
 						":hover": {
 							"color": {
-								"text": "var:preset|color|quaternary"
+								"text": "var:preset|color|tertiary"
 							}
 						}
 					}
@@ -569,7 +677,7 @@
 						},
 						":hover": {
 							"color": {
-								"text": "var:preset|color|quaternary"
+								"text": "var:preset|color|tertiary"
 							}
 						}
 					}
@@ -619,10 +727,10 @@
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "10px",
+								"bottom": "var:preset|spacing|10",
 								"left": "15px",
 								"right": "15px",
-								"top": "10px"
+								"top": "var:preset|spacing|10"
 							},
 							"margin": {
 								"bottom": "2px",
@@ -652,7 +760,7 @@
 						}
 					}
 				},
-				"css": "& .page-numbers:is(.dots, .current){padding:10px 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
+				"css": "& .page-numbers:is(.dots, .current){padding:var(--wp--preset--spacing--10) 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
 			},
 			"core/query-no-results": {
 				"color": {
@@ -660,13 +768,13 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "40px",
-						"right": "40px",
-						"bottom": "40px",
-						"left": "40px"
+						"top": "var:preset|spacing|40",
+						"right": "var:preset|spacing|40",
+						"bottom": "var:preset|spacing|40",
+						"left": "var:preset|spacing|40"
 					},
 					"margin": {
-						"top": "80px"
+						"top": "var:preset|spacing|80"
 					}
 				},
 				"border": {
@@ -679,11 +787,11 @@
 			"core/comment-template": {
 				"spacing": {
 					"padding": {
-						"top": "40px",
-						"bottom": "40px"
+						"top": "var:preset|spacing|40",
+						"bottom": "var:preset|spacing|40"
 					},
 					"margin": {
-						"bottom": "30px"
+						"bottom": "var:preset|spacing|30"
 					}
 				}
 			},
@@ -692,7 +800,7 @@
 					"text": "var:preset|color|base"
 				},
 				"typography": {
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"fontWeight": "600"
 				},
 				"elements": {
@@ -766,13 +874,13 @@
 			},
 			"core/comment-content": {
 				"typography": {
-					"fontSize": "14px"
+					"fontSize": "var:preset|font-size|x-small"
 				}
 			},
 			"core/post-comments-form": {
 				"spacing": {
 					"padding": {
-						"top": "40px;"
+						"top": "var:preset|spacing|40;"
 					}
 				},
 				"css": "& .comment-form-comment textarea{margin-top:15px;} "
@@ -785,10 +893,10 @@
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "10px",
+								"bottom": "var:preset|spacing|10",
 								"left": "15px",
 								"right": "15px",
-								"top": "10px"
+								"top": "var:preset|spacing|10"
 							},
 							"margin": {
 								"bottom": "2px",
@@ -818,7 +926,7 @@
 						}
 					}
 				},
-				"css": "& .page-numbers:is(.dots, .current){padding:10px 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
+				"css": "& .page-numbers:is(.dots, .current){padding:var(--wp--preset--spacing--10) 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
 			},
 			"core/latest-posts": {
 				"color": {
@@ -839,7 +947,7 @@
 						}
 					}
 				},
-				"css": "& li {margin-bottom:20px;} & li:last-child{margin-bottom:0;}"
+				"css": "& {overflow:hidden;} & li {margin-bottom:var(--wp--preset--spacing--20);} & li:last-child{margin-bottom:0;}"
 			},
 			"core/latest-comments": {
 				"color": {
@@ -856,7 +964,8 @@
 							}
 						}
 					}
-				}
+				},
+				"css": "& {padding-left:0;}"
 			},
 			"core/table": {
 				"_comment": "generate custom css for wp-table",

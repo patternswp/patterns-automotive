@@ -11,8 +11,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"100px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"default","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-default-background-color has-background" style="padding-top:80px;padding-right:var(--wp--preset--spacing--40);padding-bottom:100px;padding-left:var(--wp--preset--spacing--40);"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"80px"}}}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"default","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-default-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center">
 	<!-- wp:pattern {"slug":"patterns-automotive/card-1"} /-->
@@ -27,12 +27,12 @@
 <p class="has-text-align-left has-tertiary-color has-text-color" style="margin-bottom:25px;line-height:1.8"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatem maiores eaque similique non distinctio voluptates perspiciatis omnis, repellendus ipsa aperiam, laudantium voluptatum nulla?.', 'patterns-automotive' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"20px"}}}} -->
-<div class="wp-block-columns" style="margin-bottom:20px"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px","top":"5px"}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontFamily":"material-icons"} -->
-<p class="has-primary-color has-text-color has-link-color has-material-icons-font-family" style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'check_box', 'patterns-automotive' ); ?></p>
-<!-- /wp:paragraph -->
+<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}}} -->
+<div class="wp-block-columns" style="margin-bottom:var(--wp--preset--spacing--20)"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-3.png" style="width:16px"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px","top":"5px"}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
 <p class="has-small-font-size" style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'Access Lifetime any devices', 'patterns-automotive' ); ?></p>
@@ -41,10 +41,10 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px","top":"5px"}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontFamily":"material-icons"} -->
-<p class="has-primary-color has-text-color has-link-color has-material-icons-font-family" style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'check_box', 'patterns-automotive' ); ?></p>
-<!-- /wp:paragraph -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-3.png" style="width:16px"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px","top":"5px"}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
 <p class="has-small-font-size" style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'Free for Student', 'patterns-automotive' ); ?></p>
@@ -55,10 +55,11 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px","top":"5px"}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontFamily":"material-icons"} -->
-<p class="has-primary-color has-text-color has-link-color has-material-icons-font-family" style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'check_box', 'patterns-automotive' ); ?></p>
-<!-- /wp:paragraph -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-3.png" style="width:16px"/></figure>
+<!-- /wp:image -->
+
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px","top":"5px"}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
 <p class="has-small-font-size" style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'No Credit Card Required', 'patterns-automotive' ); ?></p>
@@ -67,10 +68,10 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px","top":"5px"}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontFamily":"material-icons"} -->
-<p class="has-primary-color has-text-color has-link-color has-material-icons-font-family" style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'check_box', 'patterns-automotive' ); ?></p>
-<!-- /wp:paragraph -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-3.png" style="width:16px"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px","top":"5px"}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
 <p class="has-small-font-size" style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( '30 Days Trial', 'patterns-automotive' ); ?></p>
@@ -80,22 +81,23 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":"60px"} -->
-<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"var:preset|spacing|60"} -->
+<div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"40px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"typography":{"textTransform":"uppercase","letterSpacing":"1px"}},"fontFamily":"poppins"} -->
-<div class="wp-block-buttons has-poppins-font-family" style="letter-spacing:1px;text-transform:uppercase"><!-- wp:button {"textAlign":"center","className":"is-style-fill"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"typography":{"textTransform":"uppercase","letterSpacing":"1px"}}} -->
+<div class="wp-block-buttons" style="letter-spacing:1px;text-transform:uppercase"><!-- wp:button {"textAlign":"center","className":"is-style-fill"} -->
 <div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-text-align-center wp-element-button"><?php esc_html_e( 'Know More', 'patterns-automotive' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"padding":{"left":"5px","right":"5px","top":"5px","bottom":"5px"}},"border":{"radius":"50px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="border-radius:50px;padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px"><!-- wp:paragraph {"fontSize":"x-large","fontFamily":"material-symbols-outlined"} -->
-<p class="has-material-symbols-outlined-font-family has-x-large-font-size"><?php esc_html_e( 'headset_mic', 'patterns-automotive' ); ?></p>
-<!-- /wp:paragraph --></div>
+<div class="wp-block-group" style="border-radius:50px;padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px"><!-- wp:image {"width":"50px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|base"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-8.png" style="width:50px"/></figure>
+<!-- /wp:image -->
+</div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":""},"border":{"radius":"50px"},"spacing":{"blockGap":"5px"}},"layout":{"type":"default"}} -->

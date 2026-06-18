@@ -23,8 +23,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"align":"full","style":{"color":{"background":"#f0f4fa4a"},"spacing":{"margin":{"top":"20px","bottom":"20px"}}},"className":"is-style-wide"} -->
-<hr class="wp-block-separator alignfull has-text-color has-alpha-channel-opacity has-background is-style-wide" style="margin-top:20px;margin-bottom:20px;background-color:#f0f4fa4a;color:#f0f4fa4a"/>
+<!-- wp:separator {"align":"full","style":{"color":{"background":"#f0f4fa4a"},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"className":"is-style-wide"} -->
+<hr class="wp-block-separator alignfull has-text-color has-alpha-channel-opacity has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);background-color:#f0f4fa4a;color:#f0f4fa4a"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->

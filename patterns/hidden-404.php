@@ -26,13 +26,13 @@
 <p class="has-text-align-center has-large-font-size" style="margin-bottom:15px"><?php echo esc_html__( 'This page could not be found.', 'patterns-automotive' ); ?>.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"30px"}}},"fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size" style="margin-bottom:30px"><?php echo esc_html__( 'We can\'t find the page you\'re looking for. Check out our Help Center or head back to home', 'patterns-automotive' ); ?></p>
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"fontSize":"small"} -->
+<p class="has-text-align-center has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30)"><?php echo esc_html__( 'We can\'t find the page you\'re looking for. Check out our Help Center or head back to home', 'patterns-automotive' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"accent","textColor":"base","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-base-color has-accent-background-color has-text-color has-background wp-element-button" href="<?php echo esc_url( home_url() ); ?>"><?php echo esc_html__( 'Back To Home', 'patterns-automotive' ); ?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url() ); ?>"><?php echo esc_html__( 'Back To Home', 'patterns-automotive' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></main>
 <!-- /wp:group -->

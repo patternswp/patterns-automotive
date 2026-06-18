@@ -1,4 +1,4 @@
-# Copyright (C) 2025 patternswp
+#  Copyright (C) 2025 patternswp
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-06T05:32:22+00:00\n"
+"POT-Creation-Date: 2025-02-17T06:03:54+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: patterns-automotive\n"
@@ -424,16 +424,12 @@ msgstr ""
 msgid "To use global styles, go to Appearance > Editor > Styles, then click on the Edit icon in the top right side of Styles. From there, you can customize the colors, typography, and layout for your entire site."
 msgstr ""
 
-#: patterns/archives.php:17
+#: patterns/archives.php:18
 msgid "Archives"
 msgstr ""
 
-#: patterns/calendar.php:17
+#: patterns/calendar.php:18
 msgid "Calendar"
-msgstr ""
-
-#: patterns/card-2.php:16
-msgid "computer"
 msgstr ""
 
 #: patterns/card-2.php:20
@@ -448,7 +444,7 @@ msgstr ""
 #: patterns/card-2.php:24
 #: patterns/featured-section-2.php:41
 #: patterns/featured-section-2.php:57
-#: patterns/featured-section-2.php:73
+#: patterns/featured-section-2.php:72
 msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatem maiores"
 msgstr ""
 
@@ -488,14 +484,10 @@ msgstr ""
 msgid "Drive"
 msgstr ""
 
-#: patterns/card-5.php:16
-msgid "social_leaderboard"
-msgstr ""
-
 #: patterns/card-5.php:21
-#: patterns/featured-section-4.php:48
-#: patterns/featured-section-4.php:66
-#: patterns/featured-section-4.php:84
+#: patterns/featured-section-4.php:49
+#: patterns/featured-section-4.php:67
+#: patterns/featured-section-4.php:85
 msgid "150+"
 msgstr ""
 
@@ -504,7 +496,7 @@ msgid "Company Awards"
 msgstr ""
 
 #: patterns/card-6.php:17
-#: patterns/featured-section-4.php:25
+#: patterns/featured-section-4.php:26
 #: patterns/featured-section-5.php:33
 #: patterns/featured-section-5.php:56
 msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatem maiores eaque similique non distinctio voluptates perspiciatis"
@@ -536,16 +528,6 @@ msgstr ""
 
 #: patterns/card-8.php:21
 msgid "How to buy a car?"
-msgstr ""
-
-#: patterns/card-8.php:27
-#: patterns/card-8.php:37
-#: patterns/card-8.php:47
-#: patterns/featured-section-1.php:34
-#: patterns/featured-section-1.php:46
-#: patterns/featured-section-1.php:60
-#: patterns/featured-section-1.php:72
-msgid "check_box"
 msgstr ""
 
 #: patterns/card-8.php:31
@@ -588,51 +570,35 @@ msgstr ""
 msgid "Free for Student"
 msgstr ""
 
-#: patterns/featured-section-1.php:64
+#: patterns/featured-section-1.php:65
 msgid "No Credit Card Required"
 msgstr ""
 
-#: patterns/featured-section-1.php:76
+#: patterns/featured-section-1.php:77
 msgid "30 Days Trial"
 msgstr ""
 
-#: patterns/featured-section-1.php:90
+#: patterns/featured-section-1.php:91
 msgid "Know More"
 msgstr ""
 
-#: patterns/featured-section-1.php:97
-msgid "headset_mic"
-msgstr ""
-
-#: patterns/featured-section-1.php:103
+#: patterns/featured-section-1.php:105
 msgid "Call Anytime"
 msgstr ""
 
-#: patterns/featured-section-1.php:107
+#: patterns/featured-section-1.php:109
 msgid "+ 88 ( 9800 ) 6802"
-msgstr ""
-
-#: patterns/featured-section-2.php:33
-msgid "airport_shuttle"
 msgstr ""
 
 #: patterns/featured-section-2.php:37
 msgid "Auto Rent Services"
 msgstr ""
 
-#: patterns/featured-section-2.php:49
-msgid "engineering"
-msgstr ""
-
 #: patterns/featured-section-2.php:53
 msgid "Brake Check &amp; Services"
 msgstr ""
 
-#: patterns/featured-section-2.php:65
-msgid "credit_card_heart"
-msgstr ""
-
-#: patterns/featured-section-2.php:69
+#: patterns/featured-section-2.php:68
 msgid "Best Prices In District"
 msgstr ""
 
@@ -644,31 +610,19 @@ msgstr ""
 msgid "TO Buy A Car?"
 msgstr ""
 
-#: patterns/featured-section-4.php:30
+#: patterns/featured-section-4.php:31
 msgid "Search Your Car"
 msgstr ""
 
-#: patterns/featured-section-4.php:43
-msgid "diversity_2"
-msgstr ""
-
-#: patterns/featured-section-4.php:52
+#: patterns/featured-section-4.php:53
 msgid "Team Workers"
 msgstr ""
 
-#: patterns/featured-section-4.php:61
-msgid "ar_on_you"
-msgstr ""
-
-#: patterns/featured-section-4.php:70
+#: patterns/featured-section-4.php:71
 msgid "Trusted Clients"
 msgstr ""
 
-#: patterns/featured-section-4.php:79
-msgid "apartment"
-msgstr ""
-
-#: patterns/featured-section-4.php:88
+#: patterns/featured-section-4.php:89
 msgid "Offices location"
 msgstr ""
 
@@ -722,7 +676,7 @@ msgid "Call anytime"
 msgstr ""
 
 #: patterns/featured-section-8.php:87
-#: patterns/hidden-primary-header.php:47
+#: patterns/hidden-primary-header.php:38
 msgid "(808) 555-0111"
 msgstr ""
 
@@ -814,15 +768,15 @@ msgstr ""
 msgid "follow Us :"
 msgstr ""
 
-#: patterns/hidden-primary-header.php:47
+#: patterns/hidden-primary-header.php:38
 msgid "Make a call"
 msgstr ""
 
-#: patterns/hidden-primary-header.php:57
+#: patterns/hidden-primary-header.php:48
 msgid "Email Address"
 msgstr ""
 
-#: patterns/hidden-primary-header.php:57
+#: patterns/hidden-primary-header.php:48
 msgid "info@example.com "
 msgstr ""
 
@@ -838,11 +792,11 @@ msgstr ""
 msgid "Back to Home"
 msgstr ""
 
-#: patterns/latest-comments.php:17
+#: patterns/latest-comments.php:16
 msgid "Recent comments"
 msgstr ""
 
-#: patterns/latest-posts.php:17
+#: patterns/latest-posts.php:16
 msgid "Recent Posts"
 msgstr ""
 
@@ -967,6 +921,46 @@ msgstr ""
 #: theme.json
 msgctxt "Color name"
 msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X-Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Regular"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X-Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX-Large"
 msgstr ""
 
 #: theme.json

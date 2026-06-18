@@ -25,8 +25,8 @@
 <p class="has-quaternary-color has-text-color has-small-font-size" style="margin-bottom:0px;line-height:1.6"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 'patterns-automotive' ); ?> </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"30px"}}}} -->
-<div class="wp-block-buttons" style="margin-top:30px"><!-- wp:button {"textColor":"default","style":{"border":{"width":"1px","style":"solid"},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"borderColor":"default","className":"is-style-outline"} -->
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"textColor":"default","style":{"border":{"width":"1px","style":"solid"},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"borderColor":"default","className":"is-style-outline"} -->
 <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-default-color has-text-color has-link-color has-border-color has-default-border-color wp-element-button" style="border-style:solid;border-width:1px"><?php esc_html_e( 'Contact us', 'patterns-automotive' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->

@@ -11,15 +11,14 @@
  */
 
 ?>
-<!-- wp:template-part {"slug":"header-absolute","tagName":"header"} /-->
-
-<!-- wp:template-part {"slug":"single-header", "align":"full"} /-->
+<!-- wp:template-part {"slug":"header-default","tagName":"header"} /-->
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"align":"full","layout":{"type":"constrained"}} -->
 <main class="wp-block-group alignfull">
-	<!-- wp:spacer {"height":"80px"} -->
-	<div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
-	<!-- /wp:spacer -->
+	<!-- wp:template-part {"slug":"single-header", "align":"full"} /-->
+	<!-- wp:spacer {"height":"var:preset|spacing|80"} -->
+    <div style="height:var(--wp--preset--spacing--80)" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
 
 	<!-- wp:pattern {"slug":"patterns-automotive/hidden-single-post-content"} /-->
 	

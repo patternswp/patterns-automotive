@@ -12,11 +12,11 @@
 
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"14px","textTransform":"uppercase"},"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"textColor":"primary"} -->
-<p class="has-primary-color has-text-color" style="margin-top:0px;margin-bottom:0px;font-size:14px;text-transform:uppercase"><?php esc_html_e( 'Start a New Journey', 'patterns-automotive' ); ?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"textColor":"primary","fontSize":"x-small"} -->
+<p class="has-primary-color has-text-color has-x-small-font-size" style="margin-top:0px;margin-bottom:0px;text-transform:uppercase"><?php esc_html_e( 'Start a New Journey', 'patterns-automotive' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"style":{"typography":{"fontSize":"3rem","lineHeight":"1.1"},"spacing":{"margin":{"bottom":"20px"}}},"textColor":"secondary","className":"has-base-color"} -->
-<h2 class="wp-block-heading has-base-color has-secondary-color has-text-color" style="margin-bottom:20px;font-size:3rem;line-height:1.1"><?php esc_html_e( 'Welcome to the Patterns Automotive', 'patterns-automotive' ); ?></h2>
+<!-- wp:heading {"className":"has-base-color","style":{"typography":{"lineHeight":"1.1"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"textColor":"secondary","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-base-color has-secondary-color has-text-color has-x-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20);line-height:1.1"><?php esc_html_e( 'Welcome to the Patterns Automotive', 'patterns-automotive' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->

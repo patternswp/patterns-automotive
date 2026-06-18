@@ -12,5 +12,12 @@
  */
 
 ?>
-<!-- wp:pattern {"slug":"patterns-automotive/calendar"} /-->
-<!-- wp:pattern {"slug":"patterns-automotive/archives"} /-->
+
+
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+    <!-- wp:pattern {"slug":"patterns-automotive/calendar"} /-->
+    <!-- wp:pattern {"slug":"patterns-automotive/archives"} /-->
+</div>
+<!-- /wp:group -->

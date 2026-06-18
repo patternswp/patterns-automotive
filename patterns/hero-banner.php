@@ -11,8 +11,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"at-pos patterns-automotive-hero-banner","style":{"color":{"gradient":"linear-gradient(132deg,rgb(8,22,27) 61%,rgb(190,32,38) 100%)"},"dimensions":{"minHeight":"95vh"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull at-pos patterns-automotive-hero-banner has-background" style="background:linear-gradient(132deg,rgb(8,22,27) 61%,rgb(190,32,38) 100%);min-height:95vh;padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
+<!-- wp:group {"align":"full","className":"at-pos patterns-automotive-hero-banner","style":{"color":{"gradient":"linear-gradient(132deg,rgb(8,22,27) 61%,rgb(190,32,38) 100%)"},"dimensions":{"minHeight":"95vh"},"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull at-pos patterns-automotive-hero-banner has-background" style="background:linear-gradient(132deg,rgb(8,22,27) 61%,rgb(190,32,38) 100%);min-height:95vh;padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
 <!-- wp:pattern {"slug":"patterns-automotive/hero-banner-content"} /-->
 
 </div>

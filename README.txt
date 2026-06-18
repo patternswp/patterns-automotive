@@ -3,7 +3,7 @@ Contributors: patternswp, codersantosh
 Requires at least: 6.6
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,7 +69,23 @@ https://pxhere.com/en/photo/759959
 https://pxhere.com/en/photo/1594675
 https://pxhere.com/en/photo/1629588
 
+
+=== Icons Images ===
+
+https://fonts.google.com/icons
+
+Material Icons Font
+License: Apache License, Version 2.0, https://www.apache.org/licenses/LICENSE-2.0
+Source: https://github.com/google/material-design-icons
+
+
 == Changelog ==
+
+= 1.0.4 =
+* Organized typography folder
+* Converted fonts format .ttf to .woff2
+* Added duotone
+
 
 = 1.0.3 =
 * Added: Demo import functionality with Advanced Import.
