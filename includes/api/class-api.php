@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Automotive_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Automotive_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-automotive/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Automotive_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 
