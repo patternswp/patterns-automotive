@@ -8,5 +8,5 @@
  */
 
 ?>
-<!-- wp:pattern {"slug":"patterns-automotive/featured-section-8"} /--> 
+<!-- wp:pattern {"slug":"patterns-automotive/featured-section-8"} /-->
 <!-- wp:pattern {"slug":"patterns-automotive/featured-section-9"} /-->

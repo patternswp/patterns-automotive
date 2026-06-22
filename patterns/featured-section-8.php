@@ -46,17 +46,17 @@
 
 <!-- wp:group {"style":{"border":{"top":{"color":"var:preset|color|primary","style":"solid","width":"5px"}},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"secondary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-secondary-background-color has-background" style="border-top-color:var(--wp--preset--color--primary);border-top-style:solid;border-top-width:5px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-	
+
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"left","level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.1","fontSize":"24px"},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default"} -->
 <h5 class="wp-block-heading has-text-align-left has-default-color has-text-color has-link-color" style="font-size:24px;font-style:normal;font-weight:700;line-height:1.1"><?php esc_html_e( 'Contact Details', 'patterns-automotive' ); ?></h5>
 <!-- /wp:heading -->
- 
+
 <!-- wp:spacer {"height":"var:preset|spacing|10"} -->
 <div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
- 
+
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0px"}},"typography":{"lineHeight":"1.6"},"elements":{"link":{"color":{"text":"var:preset|color|quaternary"}}}},"textColor":"quaternary","fontSize":"small"} -->
 <p class="has-quaternary-color has-text-color has-link-color has-small-font-size" style="margin-bottom:0px;line-height:1.6"><?php esc_html_e( '785 15h Street, Office 478 Berlin, De 81566 6391 Elgin St. Celina, 10299', 'patterns-automotive' ); ?></p>
 <!-- /wp:paragraph -->
