@@ -22,7 +22,7 @@
 <h3 class="wp-block-heading has-text-align-center has-base-color has-text-color has-x-large-font-size" style="margin-bottom:0px;line-height:1"><?php esc_html_e( 'Latest Travel Guides', 'patterns-automotive' ); ?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
- 
+
 
 <!-- wp:spacer {"height":"var:preset|spacing|60"} -->
 <div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>

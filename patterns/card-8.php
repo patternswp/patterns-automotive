@@ -13,7 +13,7 @@
 ?>
 <!-- wp:cover {"overlayColor":"secondary","minHeight":450,"style":{"spacing":{"padding":{"right":"var:preset|spacing|70","left":"var:preset|spacing|70","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--70);min-height:450px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
-	
+
 <!-- wp:group {"style":{"spacing":{"blockGap":"15px"}}} -->
 <div class="wp-block-group">
 
